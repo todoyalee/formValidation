@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/" method="GET" id="form">
+        <h1 class="title">CREATE ACCOUNT</h1>
+        <div class="row">
+            <label for="name">name</label>   
+            <input type="text" placeholder="enter your  name" id="name " name="name">
+            <small >Error message goes here</small>
+        </div>
+        <div class="row">
+            <label for="email">email</label>   
+            <input type="text" placeholder="enter your  email" id="email " name="email">
+            <small>Error message goes here</small>
+        </div>
+        <div class="row">
+            <label for="password">password</label>   
+            <input type="text" placeholder="enter your  password" id="password " name="password">
+            <small>Error message goes here</small>
+        </div>
+        <div class="row">
+            <label for="confirm-password">confirm-password</label>   
+            <input type="text" placeholder="enter your  name" id="confirm-password" name="confirm-password">
+            <small>Error message goes here</small>
+        </div>
+        <button type="submit" id="btn"> Sign up</button>
+        <div class="tNc">
+            <input type="checkbox" name="terms" id="terms" required>
+            <label for="terms"> i have read and agree to the terms of the service</label>
+        </div>
+    </form>
+
+    <script src="./app.js"></script>
+</body>
+</html>
